@@ -28,6 +28,19 @@ I used python 3 for this project and other packages installed are:
  1. **fin_data.csv:** This contains data for different stocks from [yahoo finance](https://finance.yahoo.com/) which is located in the data folder.
  2. **investment_trading_capstone_project_main.ipynb:** This is the jupyter notebook containing the code for the project.
 
+## Results Summary
+![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_list.PNG)
+![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_plot.PNG)
+
+From my investigation of three different models, I observed that RandomForestRegressor delivered a much better results with a lower mean absolute error (0.05, 0.0008 for Microsoft and Google respectively) than the LinearRegression or the LSTM. I also observed that tunning the parameters for LSTM (e.g the number of epochs and batch_size) resulted in better prediction but this takes time and may not always be feasible.
+
+When exploring the data, it was interesting to see how the stock prices of different companies changed due to the pandemic and how the technological companies stock prices bounced back more quickly than the other companies considered. It was also interesting to see how Pfizer stocks improved as the vaccine rollout began.
+
+Here are some major highlights from the data exploration section:
+
+2019: Before the pandemic, most of the companies stocks were doing relatively well with Apple and Microsoft taking the lead and Pfizer trailing behind.
+2020: On the onset of the pandemic around Spring, there was a fall in stock prices for all the companies, but afterwards the technology companies like Amazon, Apple, Microsoft and Google started to grow again. But companies like Pfizer, Ford and S&P 500 did not do very well especially Ford.
+2021: As the vaccine rollout began and the lockdown began to be lifted, there was significant growth in the stock prices of Ford in particular given its very stock prices which was low in 2020 due to the pandemic. Companies like Google and Microsoft,S&P 500 also grew. Overall there was an improvement in the stock prices of all the companies we considered.
 
 ### Acknowledgment
 Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the [Machine Learning for Trading course](https://www.udacity.com/course/machine-learning-for-trading--ud501) that gave me some insights into trading. Thanks to the Data Scientists who have inspired and provided insights to me through Github and StackOverflow.
