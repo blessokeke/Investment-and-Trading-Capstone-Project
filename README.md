@@ -31,6 +31,7 @@ I used python 3 for this project and other packages installed are:
 ## Results Summary
 ![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_list.PNG)
 ![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_plot.PNG)
+![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_plot_google.PNG)
 
 From my investigation of three different models, I observed that RandomForestRegressor delivered a much better results with a lower mean absolute error (0.05, 0.0008 for Microsoft and Google respectively) than the LinearRegression or the LSTM. I also observed that tunning the parameters for LSTM (e.g the number of epochs and batch_size) resulted in better prediction but this takes time and may not always be feasible.
 
