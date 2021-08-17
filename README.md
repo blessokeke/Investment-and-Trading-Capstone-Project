@@ -44,6 +44,6 @@ Here are some major highlights from the data exploration section:
 2021: As the vaccine rollout began and the lockdown began to be lifted, there was significant growth in the stock prices of Ford in particular given its very stock prices which was low in 2020 due to the pandemic. Companies like Google and Microsoft,S&P 500 also grew. Overall there was an improvement in the stock prices of all the companies we considered.
 
 ### Acknowledgment
-Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the [Machine Learning for Trading course](https://www.udacity.com/course/machine-learning-for-trading--ud501) that gave me some insights into trading. Thanks to the Data Scientists who have inspired and provided insights to me through Github and StackOverflow.
+Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the [Machine Learning for Trading course](https://www.udacity.com/course/machine-learning-for-trading--ud501) that gave me some insights into trading and also the help from the mentors. Thanks to the Data Scientists who have inspired and provided insights to me through Github and StackOverflow.
 
 This project was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025) program.
