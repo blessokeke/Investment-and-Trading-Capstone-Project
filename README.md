@@ -44,7 +44,7 @@ Here are some major highlights from the data exploration section:
   
 A detailed analysis and code can be found in my Jupyter notebook **investment_trading_capstone_project_main.ipynb** and my [blog post](https://bokeke-37284.medium.com/building-a-stock-price-predictor-using-python-eab852531449).  
 
-### Acknowledgment
+### Acknowledgments
 Many thanks to Udacity for giving me an opportunity to try out real world problems and referencing the [Machine Learning for Trading course](https://www.udacity.com/course/machine-learning-for-trading--ud501) that gave me some insights into trading and also the help from the mentors. Thanks to the Data Scientists who have inspired and provided insights to me through Github and StackOverflow.
 
 This project was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025) program.
