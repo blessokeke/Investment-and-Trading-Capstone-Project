@@ -11,7 +11,7 @@ In this project, I will be building a stock price predictor that takes daily tra
 First of all, I did some exploratory analysis and visualization of the data to understand the data better. Some of the statistics that I investigated includes: cummulative returns, rolling means, Bollinger bands and daily returns which helped me to understand the volatility (risky) of stock prices. In the modelling section, I predicted Adjusted close value of Microsoft and Google stocks using three different models and compared their performance to each other.
 
 ## Installations
-The following libaries are needed to successfully run this project. First of all you will need to install `yfinance` using `pip install yfinance`.
+The following libraries are needed to successfully run this project. First of all you will need to install `yfinance` using `pip install yfinance`.
 I used python 3 for this project and other packages installed are:
 
   1. statsmodels
