@@ -30,8 +30,9 @@ I used python 3 for this project and other packages installed are:
 ![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_list.PNG)
 ![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_plot.PNG)
 ![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/prediction_plot_google.PNG)
+![image1](https://github.com/blessokeke/Investment-and-Trading-Capstone-Project/blob/main/images/model_comparison.PNG)
 
-From my investigation of three different models, I observed that RandomForestRegressor delivered a much better results with a lower mean absolute error (0.05, 0.0008 for Microsoft and Google respectively) than the LinearRegression or the LSTM. I also observed that tunning the parameters for LSTM (e.g the number of epochs and batch_size) resulted in better prediction but this takes time and may not always be feasible.
+From my investigation of three different models, I observed that Random Forest Regressor delivered a much lower mean absolute error than the LSTM or Linear Regression for both Microsoft and Google stocks. I also observed that taking time to tune the parameters for the LSTM model (e.g. the number of epochs and batch size) resulted in better prediction.
 
 When exploring the data, it was interesting to see how the stock prices of different companies changed due to the pandemic and how the technological companies stock prices bounced back more quickly than the other companies considered. It was also interesting to see how Pfizer stocks improved as the vaccine rollout began.
 
