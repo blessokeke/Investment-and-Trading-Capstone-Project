@@ -6,8 +6,6 @@ Having worked in the financial industry for quite some time now, I was curious t
 ## Project Overview
 In this project, I will be building a stock price predictor that takes daily trading data over a certain date range as input, and outputs projected estimates for given query dates. Note that the inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); your system only needs to predict the Adjusted Close price.
 
-In this project, I will be building a stock price predictor that takes daily trading data over a certain date range as input, and outputs projected estimates for given query dates. Note that the inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); your system only needs to predict the Adjusted Close price.
-
 First of all, I did some exploratory analysis and visualization of the data to understand the data better. Some of the statistics that I investigated includes: cummulative returns, rolling means, Bollinger bands and daily returns which helped me to understand the volatility (risky) of stock prices. In the modelling section, I predicted Adjusted close value of Microsoft and Google stocks using three different models and compared their performance to each other.
 
 ## Installations
